@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		22ABE9E919ABDAF500EFF083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABE9E819ABDAF500EFF083 /* AppDelegate.swift */; };
-		22ABE9EB19ABDAF500EFF083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABE9EA19ABDAF500EFF083 /* ViewController.swift */; };
+		22ABE9EB19ABDAF500EFF083 /* FontFamiliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABE9EA19ABDAF500EFF083 /* FontFamiliesTableViewController.swift */; };
 		22ABE9EE19ABDAF500EFF083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ABE9EC19ABDAF500EFF083 /* Main.storyboard */; };
 		22ABE9F019ABDAF500EFF083 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ABE9EF19ABDAF500EFF083 /* Images.xcassets */; };
 		22ABE9FC19ABDAF500EFF083 /* FonteratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABE9FB19ABDAF500EFF083 /* FonteratorTests.swift */; };
+		22ABEA0619ABDE1F00EFF083 /* FontMembersTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABEA0519ABDE1F00EFF083 /* FontMembersTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +29,13 @@
 		22ABE9E319ABDAF500EFF083 /* Fonterator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonterator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ABE9E719ABDAF500EFF083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22ABE9E819ABDAF500EFF083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22ABE9EA19ABDAF500EFF083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22ABE9EA19ABDAF500EFF083 /* FontFamiliesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamiliesTableViewController.swift; sourceTree = "<group>"; };
 		22ABE9ED19ABDAF500EFF083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22ABE9EF19ABDAF500EFF083 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22ABE9F519ABDAF500EFF083 /* FonteratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonteratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ABE9FA19ABDAF500EFF083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22ABE9FB19ABDAF500EFF083 /* FonteratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonteratorTests.swift; sourceTree = "<group>"; };
+		22ABEA0519ABDE1F00EFF083 /* FontMembersTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontMembersTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				22ABE9E819ABDAF500EFF083 /* AppDelegate.swift */,
-				22ABE9EA19ABDAF500EFF083 /* ViewController.swift */,
+				22ABE9EA19ABDAF500EFF083 /* FontFamiliesTableViewController.swift */,
+				22ABEA0519ABDE1F00EFF083 /* FontMembersTableTableViewController.swift */,
 				22ABE9EC19ABDAF500EFF083 /* Main.storyboard */,
 				22ABE9EF19ABDAF500EFF083 /* Images.xcassets */,
 				22ABE9E619ABDAF500EFF083 /* Supporting Files */,
@@ -208,7 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22ABE9EB19ABDAF500EFF083 /* ViewController.swift in Sources */,
+				22ABE9EB19ABDAF500EFF083 /* FontFamiliesTableViewController.swift in Sources */,
+				22ABEA0619ABDE1F00EFF083 /* FontMembersTableTableViewController.swift in Sources */,
 				22ABE9E919ABDAF500EFF083 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
